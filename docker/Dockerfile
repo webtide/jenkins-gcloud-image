@@ -13,4 +13,4 @@ RUN curl https://sdk.cloud.google.com | bash && mv google-cloud-sdk /opt
 RUN gcloud components install kubectl
 RUN gcloud components install app-engine-java
 RUN gcloud version
-gcloud components list
+RUN gcloud components list

@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker build --no-cache docker
+docker build --tag=jenkins-gcloud-image --no-cache docker/
 # --tag=jenkins-gcloud-image:latest docker/
